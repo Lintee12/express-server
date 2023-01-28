@@ -1,0 +1,22 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "a nodejs web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.js | browser-sync start --proxy \"http://localhost:8000\" --files \"**/*.*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "main"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Lintee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
